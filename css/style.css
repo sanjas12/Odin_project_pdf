@@ -56,3 +56,7 @@ footer {
     text-align: center;
     font-size: small;
     }
+
+.mainLink {
+  background-color: red;
+}
