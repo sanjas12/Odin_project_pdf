@@ -1,0 +1,33 @@
+Header {
+    background-color: #7695FE;
+    border: thin #336699 solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    }
+
+/* Форматируем все заголовки <h1> в элементе <div>
+верхнего колонтитула (заголовок статьи). */
+.Header h1 {
+    margin: 0px;
+    color: white;
+    font-size: xx-large;
+    }
+
+
+.Test1 {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    }
+
+footer {
+    background-color: #dae2fd;
+    /* border: thin #336699 solid; */
+    /* padding: 10px; */
+    /* margin: 10px; */
+    text-align: center;
+    font-size: small;
+    }
