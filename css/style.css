@@ -51,7 +51,7 @@ body {
   background-color: #B2F511;
   background-position: 3px 50%;
 }
-.home .homeLink,
+/* .home .homeLink,
 .feature .featureLink,
 .expert .expertLink,
 .quiz .quizLink,
@@ -62,7 +62,7 @@ body {
   padding-right: 15px;
   padding-left: 30px;
   font-weight: bold;
-}
+} */
 
 header {
     background-color: #7695FE;
