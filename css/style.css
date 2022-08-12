@@ -1,40 +1,24 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1.2;
-}
-ol { 
-	padding-left: 1.4em;
-	list-style: decimal;
-}
-ul {
-	padding-left: 1.4em;
-	list-style: square;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} 
-/* конец кода сброса стилей браузера */
-
 /* БАЗОВЫЙ */
 body {
 	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
-	padding: 20px;
+	padding: 10px;
 }
+
+/* Прямоугольники вокруг меню */
 .mainNav {
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 175px;
+  width: 250px;
 }
+
+/* последняя граница */
 .mainNav li:last-of-type a {
   border-bottom: 1px dashed #999;
 }
 .mainNav a {
   color: #000;
-  font-size: 11px;
+  font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
   border: 1px dashed #999;
@@ -46,23 +30,13 @@ body {
   background-repeat: no-repeat;
   background-position: 0 2px;
 }
+
+/* Анимация при наведении мышки */
 .mainNav a:hover {
   /* font-weight: bold; */
   background-color: #B2F511;
   background-position: 3px 50%;
 }
-/* .home .homeLink,
-.feature .featureLink,
-.expert .expertLink,
-.quiz .quizLink,
-.project .projectLink,
-.horoscope .horoscopeLink{
-  background-color: #FFFFFF;
-  background-position: 97% 100%;
-  padding-right: 15px;
-  padding-left: 30px;
-  font-weight: bold;
-} */
 
 header {
     background-color: #7695FE;
