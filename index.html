@@ -15,7 +15,7 @@
   </header>
 
   <ul class="mainNav">
-    <li><a href="./Pdf/overview.pdf" class="homeLink">Overview</a></li>
+    <li><a id="mylink" href="./Pdf/overview.pdf" class="homeLink">Overview</a></li>
     <li><a href="./templates/intro.html" class="introLink">Introduction</a></li>
     <li><a href="./templates/prere.html" class="prereLink">Prerequisites</a></li>
     <li><a href="./templates/git.html" class="prereLink">Git Basics</a></li>
@@ -26,6 +26,19 @@
     <li><a href="./templates/back.html" class="prereLink">The Back End</a></li>
     <li><a href="./templates/conc.html" class="prereLink">Conclusion</a></li>
   </ul>
+
+  <script type="text/javascript">
+    url=document.links.mylink.href
+    document.write("Links:"+"<br>")
+    for (let i = 0; i < document.links.length; i++) {
+      document.write("Hello World " + document.links[i] + "<br>")
+      console.log.url
+    }
+  </script>
+
+  <noscript>
+    Your browser doesn't support or has disabled JavaScript
+  </noscript>
 
   <footer class="Footer">
     <p class="Disclaimer">These apocalyptic predictions ...</p>
